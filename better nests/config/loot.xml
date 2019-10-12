@@ -1,0 +1,20 @@
+<config>
+
+
+	<remove xpath="/lootcontainers/lootcontainer[@id='25']"/>
+
+<append>	
+	<!-- nests -->
+<lootgroup name="nest_loot" count="all">
+    <item name="foodEgg" count="0,3"/>
+    <item name="resourceFeather" count="1,12"/>
+</lootgroup>
+
+<lootcontainer id="25" count="1" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+    <item group="nest_loot" count="1" prob="50"/>
+    <item name="resourceFeather" count="1,12" prob="25"/>
+    <item name="resourceFeather" count="2,24" prob="25"/>
+</lootcontainer>
+</append>
+    
+</config>
