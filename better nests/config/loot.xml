@@ -3,7 +3,7 @@
 
 	<remove xpath="/lootcontainers/lootcontainer[@id='25']"/>
 
-<append>	
+<append xpath="/lootcontainers">	
 	<!-- nests -->
 <lootgroup name="nest_loot" count="all">
     <item name="foodEgg" count="0,3"/>
