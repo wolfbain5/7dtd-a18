@@ -1,0 +1,78 @@
+<config>
+
+
+
+
+
+<append xpath="/lootcontainers">
+<!-- Our list of loot to give the player -->
+<lootgroup name="wolfbainStartergear" count="all">
+	<item name="armorMiningHelmet" count="1"/>
+	<item name="modArmorHelmetLight" count="1"/>
+	<item name="apparelCoatLeatherDuster" count="1"/>
+	<item name="resourceYuccaFibers" count="100"/>
+	<item name="resourceWood" count="100"/>
+	<item name="resourceRockSmall" count="100"/>
+	<item name="resourceFeather" count="10"/>
+</lootgroup>
+
+<lootgroup name="Percgear" count="all">
+	<item name="gunHuntingRifle"/>
+	<item name="ammo762mmBulletBall" count="6,25"/>
+	<item name="meleeThrownSpearIron"/>
+</lootgroup>
+
+<lootgroup name="Strgear" count="all">
+	<item name="gunDoubleBarrelShotgun"/>
+	<item name="ammoShotgunShell" count="3,12"/>
+	<item name="meleeClubIron"/>
+</lootgroup>
+
+<lootgroup name="Fortgear" count="all">
+	<item name="meleeKnucklesIron"/>
+    <item name="gunAK47"/>
+    <item name="ammo762mmBulletBall" count="6,25"/>
+</lootgroup>
+
+<lootgroup name="Agilgear" count="all">
+	<item name="gunBowWooden"/>
+	<item name="ammoArrowStone" count="6,25"/>
+	<item name="meleeToolKnifeIron"/>
+</lootgroup>
+
+<lootgroup name="Intelgear" count="all">
+	<item name="meleeStunBaton"/>
+	<item name="gunJunkTurret"/>
+	<item name="ammoJunkTurret" count="6,25"/>
+</lootgroup>
+
+
+
+<!-- The loot id we need to call to get our loot group. 
+This may certainly cause conflicts with other mods. -->
+<lootcontainer id="127" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="wolfbainStartergear" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="128" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="Percgear" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="129" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="Strgear" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="130" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="Fortgear" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="131" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="Agilgear" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="132" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="Intelgear" count="1"/>
+</lootcontainer>
+
+</append>
+</config>

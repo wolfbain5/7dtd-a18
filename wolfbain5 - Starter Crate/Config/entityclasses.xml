@@ -1,0 +1,12 @@
+<config>
+
+
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">wolfbainStarterCrate,drinkJarBoiledWater,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,noteDuke01</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">wolfbainStarterCrate,drinkJarBoiledWater,medicalFirstAidBandage,meleeToolTorch,keystoneBlock</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">wolfbainStarterCrate,drinkJarBoiledWater,medicalFirstAidBandage,meleeToolTorch,keystoneBlock</set>
+
+
+
+
+
+</config>

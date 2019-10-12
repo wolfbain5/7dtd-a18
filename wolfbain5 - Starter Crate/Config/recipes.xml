@@ -1,0 +1,28 @@
+<configs>
+<append xpath="/recipes">
+	
+	<recipe name="PercCrate" count="1">
+		<ingredient name="noteDuke01" count="1" />
+    </recipe>
+	
+	<recipe name="StrCrate" count="1">
+		<ingredient name="noteDuke01" count="1" />
+    </recipe>
+	
+	<recipe name="FortCrate" count="1">
+		<ingredient name="noteDuke01" count="1" />
+    </recipe>
+	
+	<recipe name="AgilCrate" count="1">
+		<ingredient name="noteDuke01" count="1" />
+    </recipe>
+	
+	<recipe name="IntelCrate" count="1">
+		<ingredient name="noteDuke01" count="1" />
+    </recipe>
+	
+
+
+</append>
+
+</configs>

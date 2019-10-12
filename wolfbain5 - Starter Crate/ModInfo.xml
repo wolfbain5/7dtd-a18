@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Wolfbain's - Starter Crate" />
+		<Description value="Gives the Player a Crate of random gear to start the game with." />
+		<Author value="wolfbain5 inspired by Khelldon" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,192 @@
+<config>
+
+
+
+<append xpath="/blocks">
+
+<block name="wolfbainStarterCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="wolfbainStarterCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="wolfbainStarterCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="127"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="PercCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="PercCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="PercCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="StrCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="StrCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="StrCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="FortCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="FortCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="FortCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="AgilCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="AgilCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="AgilCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+
+<block name="IntelCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="IntelCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="IntelCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="PercCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="128"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="StrCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="129"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="FortCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="130"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="AgilCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="131"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="IntelCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="132"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+
+</append>
+
+
+</config>

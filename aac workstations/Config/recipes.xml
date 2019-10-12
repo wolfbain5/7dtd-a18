@@ -1,0 +1,33 @@
+<config>
+<append xpath="/recipes">
+    <recipe name="workbench" count="1">
+        <ingredient name="RepairedWorkbench" count="1"/>
+    </recipe>
+	
+	<recipe name="forge" count="1">
+        <ingredient name="RepairedForge" count="1"/>
+    </recipe>
+
+	<recipe name="cementMixer" count="1">
+        <ingredient name="RepairedcementMixer" count="1"/>
+    </recipe>
+
+	<recipe name="chemistryStation" count="1">
+        <ingredient name="RepairedchemistryStation" count="1"/>
+    </recipe>
+
+	<recipe name="generatorbank" count="1">
+        <ingredient name="Repairedgeneratorbank" count="1"/>
+    </recipe>	
+
+	<recipe name="solarbank" count="1">
+        <ingredient name="Repairedsolarbank" count="1"/>
+    </recipe>
+
+	<recipe name="batterybank" count="1">
+        <ingredient name="Repairedbatterybank" count="1"/>
+    </recipe>	
+	
+	
+</append>
+</config>

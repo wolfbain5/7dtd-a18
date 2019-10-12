@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="aac workstations" />
+		<Description value="allows for the upgrading of broken workstations into working ones using a claw hammer" />
+		<Author value="wolfbain5" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

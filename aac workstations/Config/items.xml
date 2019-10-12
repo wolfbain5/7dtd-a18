@@ -1,0 +1,3 @@
+<config>
+<append xpath="/items/item[@name='meleeToolClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,resourceElectricParts,resourceRepairKit,toolBeaker,smallEngine</append>
+</config>

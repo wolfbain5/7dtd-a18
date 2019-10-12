@@ -1,0 +1,2 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+noteDuke01Desc,items,Quest - Note,EnChanged,"Just a friendly reminder that you pay on time, every time or there will be consequences. Next time we won't be so nice. Thanks for the gear, but you still owe us. See you soon. -The Duke. ps use this in a recipe",,,,,
