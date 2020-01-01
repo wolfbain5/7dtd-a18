@@ -21,6 +21,10 @@
 		<ingredient name="noteDuke01" count="1" />
     </recipe>
 	
+	<recipe name="MechCrate" count="1">
+		<ingredient name="noteDuke01" count="1" />
+    </recipe>
+	
 
 
 </append>

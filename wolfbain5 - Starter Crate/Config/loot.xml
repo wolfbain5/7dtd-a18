@@ -7,9 +7,9 @@
 <append xpath="/lootcontainers">
 <!-- Our list of loot to give the player -->
 <lootgroup name="wolfbainStartergear" count="all">
-	<item name="armorMiningHelmet" count="1"/>
-	<item name="modArmorHelmetLight" count="1"/>
-	<item name="apparelCoatLeatherDuster" count="1"/>
+	<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1"/>
+<!--	<item name="modArmorHelmetLight" count="1"/>	-->
+	<item name="apparelDenimPants" count="1"/>
 	<item name="resourceYuccaFibers" count="100"/>
 	<item name="resourceWood" count="100"/>
 	<item name="resourceRockSmall" count="100"/>
@@ -46,7 +46,10 @@
 	<item name="ammoJunkTurret" count="6,25"/>
 </lootgroup>
 
-
+<lootgroup name="Mechgear" count="all">
+	<item name="meleeToolWrench"/>
+	<item name="resourceRepairKit" count="3,6"/>
+</lootgroup>
 
 <!-- The loot id we need to call to get our loot group. 
 This may certainly cause conflicts with other mods. -->
@@ -72,6 +75,10 @@ This may certainly cause conflicts with other mods. -->
 
 <lootcontainer id="132" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
 	<item group="Intelgear" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="133" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+	<item group="Mechgear" count="1"/>
 </lootcontainer>
 
 </append>

@@ -185,6 +185,37 @@
 	<property name="FilterTags" value="floot"/>
 </block>
 
+<block name="MechCrate">
+	<property name="CustomIcon" value="cntShippingCrateHero"/>
+	<property name="DescriptionKey" value="IntelCrateDesc"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab" />
+	<property name="DisplayInfo" value="Name"/>
+	<property name="Material" value="Mwood_regular"/>
+	<drop event="Destroy" count="0"/>
+	<property name="DowngradeBlock" value="IntelCrateOpen"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+<block name="MechCrateOpen">
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="DescriptionKey" value="wolfbainStarterCrateDesc"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_no_cull"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Texture" value="276,276,270,270,270,270"/>
+	<property name="LootList" value="133"/>
+	<property class="RepairItems"> <property name="resourcePaper" value="10"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Destroy" name="resourcePaper" count="2,8"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+
 
 </append>
 
