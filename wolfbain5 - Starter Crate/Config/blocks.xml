@@ -187,7 +187,7 @@
 
 <block name="MechCrate">
 	<property name="CustomIcon" value="cntShippingCrateHero"/>
-	<property name="DescriptionKey" value="IntelCrateDesc"/>
+	<property name="DescriptionKey" value="MechCrateDesc"/>
 	<property name="MaxDamage" value="5"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
@@ -195,7 +195,7 @@
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Material" value="Mwood_regular"/>
 	<drop event="Destroy" count="0"/>
-	<property name="DowngradeBlock" value="IntelCrateOpen"/>
+	<property name="DowngradeBlock" value="MechCrateOpen"/>
 	<property name="FilterTags" value="floot"/>
 </block>
 
