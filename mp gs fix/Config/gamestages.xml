@@ -1,0 +1,22 @@
+<config>
+
+<remove xpath="/gamestages/config"/>
+
+<append xpath="/gamestages">
+	<config
+		daysAliveChangeWhenKilled="2"
+
+		scavengerGameDifficultyBonus="1"
+		adventurerGameDifficultyBonus="1.2"
+		nomadGameDifficultyBonus="1.5"
+		warriorGameDifficultyBonus="1.7"
+		survivalistGameDifficultyBonus="2"
+		insaneGameDifficultyBonus="2.5"
+
+		startingWeight =".3"
+		diminishingReturns ="-0.25"
+
+	/> 
+</append>
+
+</config>
