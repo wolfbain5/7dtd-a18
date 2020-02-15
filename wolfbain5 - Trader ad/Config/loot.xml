@@ -1,0 +1,16 @@
+<config>
+
+<remove xpath="/lootcontainers/lootcontainer[@id='14']"/>
+
+
+
+<append xpath="/lootcontainers">
+<lootcontainer id="14" count="0,2" size="6,2" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualBaseTemplate">
+	<item group="books" prob="0.2"/>
+	<item name="qc_Trader_Ad" prob="0.2"/>	
+	<item name="resourcePaper" prob="0.8" count="1,10"/>	
+</lootcontainer>
+
+
+</append>
+</config>

@@ -1,0 +1,55 @@
+<config>
+
+<append xpath="/quests">
+
+	<quest id="quest_Trader_Ad">
+		<property name="group_name_key" value="quest_Trader_Ad"/>
+		<property name="name_key" value="quest_Trader_Ad"/>
+		<property name="subtitle_key" value="quest_Trader_Ad_subtitle"/>
+		<property name="description_key" value="quest_Trader_Ad_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="quest_Trader_Ad_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="Goto" id="trader" value="5" phase="1"/>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="1"/>
+	</quest>
+
+<!-- 
+ 	<quest id="challenge_drunkanddisorderly">
+		<property name="name_key" value="challenge_drunkanddisorderly"/>
+		<property name="subtitle_key" value="challenge_drunkanddisorderly_subtitle"/>
+		<property name="description_key" value="challenge_drunkanddisorderly_offer"/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="offer_key" value="challenge_drunkanddisorderly_offer"/>
+		<property name="difficulty" value="medium"/>
+		<property name="completiontype" value="TurnIn"/>
+
+		<objective type="ZombieKill" value="2" phase="1"/>
+		<requirement type="Holding" id="" phase="1"/>
+
+		<requirement type="Group" value="OR" phase="1" >
+			<requirement type="Buff" id="buffBeer"/>
+			<requirement type="Buff" id="buffDrunkGrandpasMoonshine"/>
+		</requirement>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+		</objective>
+
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="350"/>
+	</quest>
+	 -->
+</append>
+	
+</config>

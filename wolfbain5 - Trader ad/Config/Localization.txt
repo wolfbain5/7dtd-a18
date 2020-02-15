@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+quest_Trader_Ad,items,Quest - Challenge,,,Trader Advertisement,,,,,,,,,,,,
+quest_Trader_Ad_offer,Quest,Challenge Info,,,"Come one, come all, Trader Joel's is open for business",,,,,,,,,,,,
+quest_Trader_Ad_subtitle,Quest,Challenge Info,,,Travel to the tradepost,,,,,,,,,,,,
+quest_Trader_Ad_description,Quest,Quest Info,,,"Travel to the nearby Tradepost",,,,,,,,,,,,
