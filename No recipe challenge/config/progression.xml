@@ -18,6 +18,7 @@
 	<remove xpath="/progression/perks/perk[@name='perkGunslinger']"/>
 	<remove xpath="/progression/perks/perk[@name='perkLightArmor']"/>
 	<remove xpath="/progression/perks/perk[@name='perkElectrocutioner']"/>
+	<remove xpath="/progression/perks/perk[@name='perkTurrets']"/>
 	<remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']"/>
 	<remove xpath="/progression/perks/perk[@name='perkGreaseMonkey']"/>
 	<remove xpath="/progression/perks/perk[@name='perkYeahScience']"/>
